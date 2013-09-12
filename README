@@ -1,0 +1,7 @@
+This Project was done in C++
+
+The Program starts the user in the main function call by providing a simple UI for them to decide if they want to create a part manually or select one of the three recipies. Based on the users selection I ask them to give a name and partsize for the widget they plan to make. for the manual part i also ask them to provide a machine running time which cannot be grater than 100 sec. Based on the user selection i send information to the machine control via a strategy pattern and then that respective machine control (one of three recipies or the manual) will create a hardware object and pass the information to that hardware and control it. While each part is running i print information to the stdout as well as store it in a file with a respective name in the folder.
+
+
+
+
